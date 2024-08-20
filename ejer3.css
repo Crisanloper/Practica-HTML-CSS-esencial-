@@ -1,0 +1,32 @@
+body {
+    background-image: url(./assets/tecno.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: wheat;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+/*
+.encabezado{
+    font-size: 50px;
+    font-family: "Bungee Tint", sans-serif;
+    text-align: center;
+}*/
+.encabezado {
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-family: "Bungee Tint", sans-serif;
+}
